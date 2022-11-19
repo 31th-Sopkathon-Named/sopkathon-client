@@ -6,7 +6,5 @@ export default function Container({ children }) {
 }
 
 const StyledContainer = styled.section`
-  padding: 0 1.5rem;
   height: 100vh;
-  border: 1px solid black;
 `;
