@@ -4,7 +4,7 @@ import { userAPI, matchAPI, evaluateAPI } from '../core/api/userAPI';
 import styled from 'styled-components';
 
 import { ReactComponent as MainLogo } from '../assets/logos/mainLogo.svg';
-import ClockImg from '../assets/images/clock.png';
+import ClockImg from '../assets/images/miniClock.png';
 
 // import Container from '../components/common/Container';
 import Button from '../components/common/Button';
@@ -37,7 +37,7 @@ export default function Home() {
 
 const StyledContainer = styled.section`
   /* background-image: url('../assets/images/backgroundImg.png'); */
-  background-color: black;
+  background-color: #32322e;
   text-align: center;
   padding-top: 143px;
   height: 100vh;
