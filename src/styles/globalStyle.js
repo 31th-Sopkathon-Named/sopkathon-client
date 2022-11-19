@@ -71,6 +71,7 @@ const GlobalStyle = createGlobalStyle`
     }
     #root, body, html {
         width: 100%;
+        overflow: hidden;
     }
 `;
 
