@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export default function Header({ pageId }) {
   return (
     <StContainer>
-      <StyledHeader>현규님과 짠 하는 중</StyledHeader>
+      <StyledHeader>{sessionStorage.getItem('pairName')}님과 짠 하는 중</StyledHeader>
       <StyledPageNum>{pageId}/4</StyledPageNum>
     </StContainer>
   );

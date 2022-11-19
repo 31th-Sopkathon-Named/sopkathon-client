@@ -42,7 +42,7 @@ export default function Question() {
   console.log(selectList, setSelectList);
 
   const [isClicked, setIsClicked] = useState(false);
-  const [clickButton, setClickButton] = useState(false);
+  const [clickButton, setClickButton] = useState('false');
 
   const page = useParams('id');
   const pageNum = parseInt(page.id) - 1;
